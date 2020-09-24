@@ -36,7 +36,7 @@ CD74HC4067 mux5 = {
   {9, 3, 4, 5} 
 };
 
-Bank<2> bank = {16}; // active 2 bank avec 8 adresses par bank
+Bank<2> bank = {8}; // active 2 bank avec 8 adresses par bank
 IncrementDecrementSelector<2> selector = {
     bank,       // Bank to manage
     {19, 20},     // push button pins (increment, decrement)
